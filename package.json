@@ -1,7 +1,15 @@
 {
+  "name": "textlint-rule-count-word-maru",
   "version": "1.0.0",
+  "description": "textlintプラグイン：日本語の一文（句点まで）の文字数をカウントしてチェック",
   "keywords": [
-    "textlintrule"
+    "textlint",
+    "textlintrule", 
+    "japanese",
+    "sentence",
+    "character-count",
+    "writing",
+    "proofreading"
   ],
   "main": "lib/index.js",
   "files": [
@@ -22,11 +30,17 @@
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   },
-  "name": "textlint-rule-count-word-maru",
   "directories": {
     "test": "test"
   },
   "author": "Haruki Tosa <13haruki28@gmail.com> (https://twitter.com/tosa_now)",
-  "license": "ISC",
-  "description": ""
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/harukitosa/textlint-rule-count-word-maru.git"
+  },
+  "bugs": {
+    "url": "https://github.com/harukitosa/textlint-rule-count-word-maru/issues"
+  },
+  "homepage": "https://github.com/harukitosa/textlint-rule-count-word-maru#readme"
 }
