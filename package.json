@@ -1,0 +1,32 @@
+{
+  "version": "1.0.0",
+  "keywords": [
+    "textlintrule"
+  ],
+  "main": "lib/index.js",
+  "files": [
+    "lib/",
+    "src/"
+  ],
+  "scripts": {
+    "test": "textlint-scripts test",
+    "build": "textlint-scripts build",
+    "prepublish": "npm run --if-present build",
+    "watch": "textlint-scripts build --watch"
+  },
+  "devDependencies": {
+    "@textlint/types": "^15.2.1",
+    "@types/node": "^20.19.11",
+    "textlint-scripts": "^15.2.1",
+    "textlint-tester": "^15.2.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "name": "textlint-rule-count-word-maru",
+  "directories": {
+    "test": "test"
+  },
+  "author": "Haruki Tosa <13haruki28@gmail.com> (https://twitter.com/tosa_now)",
+  "license": "ISC",
+  "description": ""
+}
